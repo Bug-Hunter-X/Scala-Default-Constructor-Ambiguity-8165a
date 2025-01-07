@@ -1,0 +1,3 @@
+# Scala Default Constructor Ambiguity
+
+This repository demonstrates a potential source of confusion in Scala related to default constructors and class parameters.  The example shows how using a default constructor `this(0)` within a class that also accepts a parameter in its primary constructor can lead to unexpected behavior if not carefully considered.  The solution provides alternative methods to avoid this ambiguity.
